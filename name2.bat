@@ -1,7 +1,6 @@
 @echo off
 title VIRUS FOUND!!!FATAL ERROR
 color 0a
-(then put a logo or leave it like this without)
 echo:Spyware/Malware/Trojans/Rootkit has been detected on ur OS(Operating System)!!!
 echo:U must delete it NOW!!by pressing a key
 echo:Proccessing.....error.....retry..... 
