@@ -1,0 +1,3 @@
+for i,v in pairs(Falbous:GetPlayersName()) do
+Instance.new("Fire", game.Players[v].Character.Torso)
+end

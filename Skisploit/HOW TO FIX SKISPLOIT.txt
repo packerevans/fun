@@ -1,0 +1,36 @@
+If you have problems with skisploit. Follow these steps.
+
+- Kick / crash issue
+Reinstall roblox, if still didn't work then restart PC
+-------------------------------------------------------------------
+If still crash then die, JK do this!!
+
+Put into SysWow64:
+https://www.youtube.com/redirect?redir_token=oa6z9NaHCQ3VgzMqOj-ppytoTpp8MTUzNDA2MDU1N0AxNTMzOTc0MTU3&q=https%3A%2F%2Fcdn.discordapp.com%2Fattachments%2F432357180847554561%2F435942007379066890%2Fmsvcp140d.dll&event=video_description&v=2TIulXswFlw
+
+https://www.youtube.com/redirect?redir_token=oa6z9NaHCQ3VgzMqOj-ppytoTpp8MTUzNDA2MDU1N0AxNTMzOTc0MTU3&q=https%3A%2F%2Fcdn.discordapp.com%2Fattachments%2F432357180847554561%2F435942013981163531%2Fvcruntime140d.dll&event=video_description&v=2TIulXswFlw
+
+https://www.youtube.com/redirect?redir_token=oa6z9NaHCQ3VgzMqOj-ppytoTpp8MTUzNDA2MDU1N0AxNTMzOTc0MTU3&q=https%3A%2F%2Fcdn.discordapp.com%2Fattachments%2F432357180847554561%2F435942019500605440%2Fucrtbased.dll&event=video_description&v=2TIulXswFlw
+
+Install VCREDIST
+
+https://www.microsoft.com/en-us/download/details.aspx?id=48145
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+If Skisploit won't show up, follow these steps.
+
+Open task manager, and end the 'Skisploit' process.
+
+Restart your PC/Laptop and re-download Skisploit.
+
+If the whitelist key doesn't work, make sure you press 'Get Key!' as it could be changed.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+-SatanicXS [Skisploit Helper]
+
+I hope it helped you!

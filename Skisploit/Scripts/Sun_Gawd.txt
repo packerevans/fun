@@ -1,0 +1,360 @@
+p = game.Players.LocalPlayer
+char = p.Character
+local char = p.Character
+torso = char.Torso
+neck = char.Torso.Neck
+hum = char.Humanoid
+Player = game:GetService("Players").LocalPlayer
+Character = Player.Character
+tors = Character.Torso
+root = Character.HumanoidRootPart
+lleg = Character["Left Leg"]
+hed = Character.Head
+rleg = Character["Right Leg"]
+rarm = Character["Right Arm"]
+larm = Character["Left Arm"]
+
+ypcall(function()
+for i,v in pairs(Character:children()) do
+    if v:IsA("Hat") then
+        v:Destroy()
+    end
+end
+for i,v in pairs(Character:children()) do
+    if v:IsA("Accessory") then
+        v:Destroy()
+    end
+end
+for i,v in pairs(Character:children()) do
+    if v:IsA("Hair") then
+        v:Destroy()
+    end
+end
+end)
+
+CV="Hot pink"
+
+local txt = Instance.new("BillboardGui", char)
+txt.Adornee = char .Head
+txt.Name = "_status"
+txt.Size = UDim2.new(2, 0, 1.2, 0)
+txt.StudsOffset = Vector3.new(-9, 8, 0)
+local text = Instance.new("TextLabel", txt)
+text.Size = UDim2.new(10, 0, 7, 0)
+text.FontSize = "Size24"
+text.TextScaled = true
+text.TextTransparency = 0
+text.BackgroundTransparency = 1 
+text.TextTransparency = 0
+text.TextStrokeTransparency = 0
+text.Font = "Highway"
+text.TextStrokeColor3 = BrickColor.new("Really black").Color
+
+v=Instance.new("Part")
+v.Name = "ColorBrick"
+v.Parent=p.Character
+v.FormFactor="Symmetric"
+v.Anchored=true
+v.CanCollide=false
+v.BottomSurface="Smooth"
+v.TopSurface="Smooth"
+v.Size=Vector3.new(10,5,3)
+v.Transparency=1
+v.CFrame=char.Torso.CFrame
+v.BrickColor=BrickColor.new(CV)
+v.Transparency=1
+text.TextColor3 = BrickColor.new("Deep orange").Color
+v.Shape="Block"
+text.Text = "Sun Gawd"
+
+hed.face.Texture = "http://www.roblox.com/asset/?id=0"
+hed.Transparency = 1
+rleg.Transparency = 1
+rarm.Transparency = 1
+larm.Transparency = 1
+lleg.Transparency = 1
+tors.Transparency = 1
+
+Player = game:GetService("Players").LocalPlayer
+Character = Player.Character
+rarm = Character["Right Arm"]
+larm = Character["Left Arm"]
+vt = Vector3.new
+bc = BrickColor.new
+wit = bc("Deep orange").Color
+
+local prth = Instance.new("Part",Character)
+prth.Size = vt(1.25,1.25,1.25)
+prth.CanCollide = false
+prth.Material = "Neon"
+prth.Transparency = 0.5
+prth.BrickColor = bc("Deep orange")
+local wldh = Instance.new("Weld",Character)
+wldh.Part0 = hed
+wldh.Part1 = prth
+
+local prtrm = Instance.new("Part",Character)
+prtrm.Size = vt(2.1,2.1,1.1)
+prtrm.CanCollide = false
+prtrm.Transparency = 0.5
+prtrm.Material = "Neon"
+prtrm.BrickColor = bc("Deep orange")
+local wldm = Instance.new("Weld",Character)
+wldm.Part0 = root
+wldm.Part1 = prtrm
+
+local prtr = Instance.new("Part",Character)
+prtr.Size = vt(1.1,2.1,1.1)
+prtr.CanCollide = false
+prtr.Transparency = 0.5
+prtr.Material = "Neon"
+prtr.BrickColor = bc("Deep orange")
+local prtrl = Instance.new("Part",Character)
+prtrl.Size = vt(1.1,2.1,1.1)
+prtrl.CanCollide = false
+prtrl.Transparency = 0.5
+prtrl.Material = "Neon"
+prtrl.BrickColor = bc("Deep orange")
+local eff = Instance.new("ParticleEmitter",prtr)
+eff.LightEmission = 1
+eff.Texture = "rbxassetid://284205403"
+eff.Color = ColorSequence.new(wit)
+eff.Size = NumberSequence.new(0.5,1)
+eff.Acceleration = vt(0,25,0)
+eff.Speed = NumberRange.new(-5)
+eff.LockedToPart = false
+eff.Transparency = NumberSequence.new(0.95)
+eff.Lifetime = NumberRange.new(0.5)
+eff.Rate = 100000
+eff.VelocitySpread = 25
+local wld = Instance.new("Weld",Character)
+wld.Part0 = rarm
+wld.Part1 = prtr
+local wldl = Instance.new("Weld",Character)
+wldl.Part0 = rleg
+wldl.Part1 = prtrl
+
+local prtr2 = Instance.new("Part",Character)
+prtr2.Size = vt(1.1,2.1,1.1)
+prtr2.CanCollide = false
+prtr2.Transparency = 0.5
+prtr2.Material = "Neon"
+prtr2.BrickColor = bc("Deep orange")
+local prtrl2 = Instance.new("Part",Character)
+prtrl2.Size = vt(1.1,2.1,1.1)
+prtrl2.CanCollide = false
+prtrl2.Transparency = 0.5
+prtrl2.Material = "Neon"
+prtrl2.BrickColor = bc("Deep orange")
+local eff2 = Instance.new("ParticleEmitter",prtr2)
+eff2.LightEmission = 1
+eff2.Texture = "rbxassetid://284205403"
+eff2.Color = ColorSequence.new(wit)
+eff2.Size = NumberSequence.new(0.5,1)
+eff2.Acceleration = vt(0,25,0)
+eff2.Speed = NumberRange.new(-5)
+eff2.LockedToPart = false
+eff2.Transparency = NumberSequence.new(0.95)
+eff2.Lifetime = NumberRange.new(0.5)
+eff2.Rate = 100000
+eff2.VelocitySpread = 25
+local wld2 = Instance.new("Weld",Character)
+wld2.Part0 = larm
+wld2.Part1 = prtr2
+local wldl2 = Instance.new("Weld",Character)
+wldl2.Part0 = lleg
+wldl2.Part1 = prtrl2
+
+local mouse = game.Players.LocalPlayer:GetMouse()
+tors = game.Players.LocalPlayer.Character.Torso
+vt = Vector3.new
+bc = BrickColor.new
+
+local Effect = Instance.new("Part",game.Lighting)
+Effect.BrickColor = bc("Deep orange")
+Effect.Transparency = 1
+Effect.Anchored = true
+Effect.CanCollide = false
+Effect.Material = "Neon"
+Effect.Shape = "Ball"
+Effect.Size = vt(5,5,5)
+local fire1 = Instance.new("Fire",Effect)
+fire1.Name = "Fire"
+fire1.Heat = 0
+fire1.Size = 30
+fire1.SecondaryColor = bc("Really black").Color
+fire1.Color = bc("Deep orange").Color
+local fire2 = Instance.new("Fire",Effect)
+fire2.Name = "Fire2"
+fire2.Heat = 0
+fire2.Size = 25
+fire2.SecondaryColor = bc("Really black").Color
+fire2.Color = bc("Neon orange").Color
+
+function Explode(rad,par)
+	local expart = Instance.new("Part",script.Parent)
+	local expart2 = Instance.new("Part",script.Parent)
+	local snd = Instance.new("Sound",expart)
+	snd.SoundId = "rbxassetid://258057783"
+	snd.Volume = 2.5
+	local partMesh = Instance.new("SpecialMesh",expart)
+	partMesh.MeshType = "Sphere"
+	local partMesh2 = Instance.new("SpecialMesh",expart2)
+	partMesh2.MeshType = "Sphere"
+	local expld = Instance.new("Explosion", script.Parent)
+	expld.BlastRadius = rad
+	expld.Position = par.Position
+	partMesh.Scale = vt(rad,rad,rad)
+	expart.Size = vt(1,1,1)*1.5
+	expart.Transparency = 0.5
+	expart.Anchored = true
+	expart.Material = "Neon"
+	expart.BrickColor = bc("Deep orange")
+	expart.CFrame = par.CFrame
+	partMesh2.Scale = vt(rad,rad,rad)
+	expart2.Size = vt(1.15,1.15,1.15)*1.5
+	expart2.Transparency = 0.5
+	expart2.Anchored = true
+	expart2.Material = "Neon"
+	expart2.BrickColor = bc("Bright orange")
+	expart2.CFrame = par.CFrame
+	snd:Play()
+	for i = 0, 100 do
+		expart.Transparency = expart.Transparency + 0.005
+		partMesh.Scale = partMesh.Scale + vt(0.25,0.25,0.25)
+		expart.CFrame = expart.CFrame
+		expart2.Transparency = expart.Transparency + 0.005
+		partMesh2.Scale = partMesh2.Scale + vt(0.25,0.25,0.25)
+		expart2.CFrame = expart.CFrame
+		wait(0)
+	end
+	snd.Parent = nil
+	expart.Parent = nil
+	expart2.Parent = nil
+	expld.Parent = nil
+end
+
+function Explode2(rad,par)
+	local expart = Instance.new("Part",script.Parent)
+	local expart2 = Instance.new("Part",script.Parent)
+	local snd = Instance.new("Sound",expart)
+	snd.SoundId = "rbxassetid://165969964"
+	snd.Volume = 3
+	local partMesh = Instance.new("SpecialMesh",expart)
+	partMesh.MeshType = "Sphere"
+	local partMesh2 = Instance.new("SpecialMesh",expart2)
+	partMesh2.MeshType = "Sphere"
+	local expld = Instance.new("Explosion", script.Parent)
+	expld.BlastRadius = rad
+	expld.Position = par.Position
+	partMesh.Scale = vt(rad,rad,rad)
+	expart.Size = vt(1,1,1)*1.5
+	expart.Transparency = 0.5
+	expart.Anchored = true
+	expart.Material = "Neon"
+	expart.BrickColor = bc("Deep orange")
+	expart.CFrame = par.CFrame
+	partMesh2.Scale = vt(rad,rad,rad)
+	expart2.Size = vt(1.15,1.15,1.15)*1.5
+	expart2.Transparency = 0.5
+	expart2.Anchored = true
+	expart2.Material = "Neon"
+	expart2.BrickColor = bc("Bright orange")
+	expart2.CFrame = par.CFrame
+	snd:Play()
+	for i = 0, 100 do
+		expart.Transparency = expart.Transparency + 0.005
+		partMesh.Scale = partMesh.Scale + vt(0.25,0.25,0.25)
+		expart.CFrame = expart.CFrame
+		expart2.Transparency = expart.Transparency + 0.005
+		partMesh2.Scale = partMesh2.Scale + vt(0.25,0.25,0.25)
+		expart2.CFrame = expart.CFrame
+		wait(0)
+	end
+	snd.Parent = nil
+	expart.Parent = nil
+	expart2.Parent = nil
+	expld.Parent = nil
+end
+
+mouse.KeyDown:connect(function(k)
+  
+k = k:lower()
+if k == "q" then
+   local spart = Effect:Clone()
+   spart.Parent = game.Players.LocalPlayer.Character
+   spart.Transparency = 0
+   spart.Position = game.Players.LocalPlayer.Character.Torso.Position + game.Players.LocalPlayer.Character.Torso.CFrame.lookVector*5
+   wait()
+   spart.Position = game.Players.LocalPlayer.Character.Torso.Position + game.Players.LocalPlayer.Character.Torso.CFrame.lookVector*15
+   wait()
+   spart.Position = game.Players.LocalPlayer.Character.Torso.Position +  game.Players.LocalPlayer.Character.Torso.CFrame.lookVector*25
+   wait()
+   spart.Position = game.Players.LocalPlayer.Character.Torso.Position +  game.Players.LocalPlayer.Character.Torso.CFrame.lookVector*35
+   wait()
+   spart.Position = game.Players.LocalPlayer.Character.Torso.Position +  game.Players.LocalPlayer.Character.Torso.CFrame.lookVector*45
+   wait()
+   spart.Position = game.Players.LocalPlayer.Character.Torso.Position +  game.Players.LocalPlayer.Character.Torso.CFrame.lookVector*55
+   wait()
+   spart.Position = game.Players.LocalPlayer.Character.Torso.Position +  game.Players.LocalPlayer.Character.Torso.CFrame.lookVector*65
+   wait()
+   spart.Position = game.Players.LocalPlayer.Character.Torso.Position +  game.Players.LocalPlayer.Character.Torso.CFrame.lookVector*75
+   wait()
+   spart.Position = game.Players.LocalPlayer.Character.Torso.Position +  game.Players.LocalPlayer.Character.Torso.CFrame.lookVector*85
+   wait()
+   spart.Position = game.Players.LocalPlayer.Character.Torso.Position +  game.Players.LocalPlayer.Character.Torso.CFrame.lookVector*95
+   wait()
+   spart.Position = game.Players.LocalPlayer.Character.Torso.Position +  game.Players.LocalPlayer.Character.Torso.CFrame.lookVector*105
+   spart.Transparency = 1
+   spart.Fire2:Destroy()
+   spart.Fire:Destroy()
+   Explode(25,spart)
+   spart:Destroy()
+end
+if k == "e" then
+   local spart = Effect:Clone()
+   spart.Parent = game.Players.LocalPlayer.Character
+   spart.Transparency = 0
+   spart.Anchored = false
+   spart.Position = game.Players.LocalPlayer.Character.Torso.Position + game.Players.LocalPlayer.Character.Torso.CFrame.lookVector*0
+   spart.Position = spart.Position + vt(0,100,0)
+   spart.Velocity = game.Players.LocalPlayer.Character.Torso.CFrame.lookVector*150
+   wait(1)
+   spart.Transparency = 1
+   spart.Fire2:Destroy()
+   spart.Fire:Destroy()
+   Explode2(75,spart)
+   spart:Destroy()
+end
+if k == "r" then
+   local ff = Instance.new("ForceField",game.Players.LocalPlayer.Character)
+   game.Players.LocalPlayer.Character.Torso.Velocity = game.Players.LocalPlayer.Character.Torso.CFrame.lookVector*275
+   wait(0.75)
+   game.Players.LocalPlayer.Character.Torso.Velocity = game.Players.LocalPlayer.Character.Torso.CFrame.lookVector*-165
+   Explode(30,game.Players.LocalPlayer.Character.Torso)
+   wait(0.5)
+   ff:Destroy()
+end
+if k == "f" then
+   local ff = Instance.new("ForceField",game.Players.LocalPlayer.Character)
+   for i = 0, 10 do
+   game.Players.LocalPlayer.Character.Torso.CFrame = game.Players.LocalPlayer.Character.Torso.CFrame + Vector3.new(0,10,0)
+   wait(0)
+   end
+   for i = 0, 5 do
+   game.Players.LocalPlayer.Character.Torso.CFrame = game.Players.LocalPlayer.Character.Torso.CFrame + Vector3.new(0,1,0)
+   wait(0)
+   end
+   game.Players.LocalPlayer.Character.Torso.Anchored = true
+   wait(1.5)
+   game.Players.LocalPlayer.Character.Torso.Anchored = false
+   for i = 0, 10 do
+   game.Players.LocalPlayer.Character.Torso.CFrame = game.Players.LocalPlayer.Character.Torso.CFrame + Vector3.new(0,-1,0)
+   wait(0)
+   end
+   wait(0.25)
+   Explode2(62.5,game.Players.LocalPlayer.Character.Torso)
+   wait(0.5)
+   ff:Destroy()
+end
+end)

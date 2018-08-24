@@ -1,0 +1,3 @@
+for i,v in pairs(Falbous:GetPlayersName()) do
+Instance.new("ForceField", game.Players[v].Character)
+end

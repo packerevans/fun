@@ -1,0 +1,4 @@
+print("fire script")
+print("executed by template")
+
+Instance.new("Fire", game.Players.LocalPlayer.Character.Torso)

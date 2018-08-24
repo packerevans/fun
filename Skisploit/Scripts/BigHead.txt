@@ -1,0 +1,1 @@
+game.Workspace.YOURNAMEHERE.Head.Mesh.Scale = Vector3.new(10,10,10) 

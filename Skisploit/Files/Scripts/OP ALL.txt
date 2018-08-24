@@ -1,0 +1,10 @@
+for i,v in pairs(Falbous:GetPlayersName()) do
+pe = Instance.new("ParticleEmitter",game.Players[v].Character.Torso)
+pe.Texture = "http://roblox.com/asset/?id=127476787"
+pe.VelocitySpread = 50
+wait()
+Instance.new("ForceField", game.Players[v].Character)
+Instance.new("Fire", game.Players[v].Character.Torso)
+Instance.new("Smoke", game.Players[v].Character.Torso)
+Instance.new("Sparkles", game.Players[v].Character.Torso)
+end

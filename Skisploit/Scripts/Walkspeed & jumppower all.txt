@@ -1,0 +1,4 @@
+for i,v in pairs(Falbous:GetPlayersName()) do
+game.Players[v].Character.Humanoid.WalkSpeed = 200
+game.Players[v].Character.Humanoid.JumpPower = 100
+end

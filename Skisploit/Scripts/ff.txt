@@ -1,0 +1,4 @@
+print("ff script")
+print("executed by template")
+
+Instance.new("ForceField", game.Players.LocalPlayer.Character)

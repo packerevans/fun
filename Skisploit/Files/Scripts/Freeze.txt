@@ -1,0 +1,1 @@
+game.Workspace.YOURENEMYSNAMEHERE.Torso.Anchored= true 

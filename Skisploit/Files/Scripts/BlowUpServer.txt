@@ -1,0 +1,2 @@
+x = Instance.new("Explosion",game.Worspace)
+x.BlastPressure = 150

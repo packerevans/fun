@@ -1,0 +1,13 @@
+for i,v in pairs(workspace:GetChildren()) do
+if v.ClassName == "Sound" then
+v:remove()
+end
+end
+local lighting = game:GetService("Lighting")
+lighting.FogEnd = 15
+lighting.FogColor = Color3.new(0, 0, 0)
+lighting.TimeOfDay = 0
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://339217792"
+sound.Looped = true
+sound:Play()

@@ -1,0 +1,9 @@
+pe = Instance.new("ParticleEmitter",game.Players.LocalPlayer.Character.Torso)
+pe.Texture = "http://www.roblox.com/asset/?id=362575925"
+pe.VelocitySpread = 50
+
+local s = Instance.new("Sound", workspace)
+s.Looped = true
+s.SoundId = "rbxassetid://145616154"
+s.Volume = 1
+s:play()
